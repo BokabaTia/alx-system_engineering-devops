@@ -3,13 +3,16 @@
 
 i=0
 
-while [ "$i" -lt 10 ]; do
+#echo "Best School";
+
+while [ "$i" -lt 9 ]; do
+
   if [ "$i" -eq 8 ]
   then
 	echo "Hi";
-  else 
-    	echo "Best School";
   fi
+  
+  echo "Best School"
   ((i++))
 done
 
